@@ -34,7 +34,6 @@
              (not (string= "" (documentation-property symbol 'variable-documentation))))
     (push symbol learn-random/variables)))
 
-(documentation-property 'ediff-highlighting-style 'variable-documentation)
 
 (defun learn-random/update-variable ()
   (interactive)
@@ -50,4 +49,5 @@
          (idx (random limit))
          (variable-symbol (nth idx learn-random/variables)))
     (describe-variable variable-symbol)))
+
 (provide 'learn-random)
