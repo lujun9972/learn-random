@@ -1,0 +1,9 @@
+#+TITLE: README
+#+AUTHOR: lujun9972
+#+CATEGORY: learn-random
+#+DATE: [2016-02-25 四 20:25]
+#+OPTIONS: ^:{}
+
++ ~learn-random-function~ will describe a random function which is not obsoleted and have doc-string
+
++ ~learn-random-variable~ will describe a random variable which is not obsoleted and have doc-string
